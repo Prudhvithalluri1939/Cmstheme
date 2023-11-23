@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    position: absolute;
+    z-index: -1;
+}
+.one {
+    background-color: whitesmoke;
+    position: fixed;
+    width: 100%;
+    /* position: relative; */
+    z-index: 11;
+}
+.one button{
+    border-color: blue;
+    background-color: blue;
+    color: white;
+}
+button:hover{
+ background-color: aliceblue;
+ color: blue;
+}
+.two{
+    margin-top: 100px;
+}
+#aa{
+    margin-top: 100px;
+}
+#ac{
+    font-size: 100px;
+}
+.ad{
+    height: 200px;
+    padding-top: 50px;
+}
+.ai{
+    margin-top: 30px;
+}
+.cb{
+    margin: 0px 100px;
+    padding: 50px 0px;
+}
+.cb img{
+    border-radius: 50%;
+    /* position: relative; */
+    /* left: 300px; */
+    margin-left: 405px;
+}
+#ce {
+    /* margin-top: -60px; */
+    position: relative;
+    left: 700px;
+}
+.cg i {
+    /* position: relative; */
+    /* right: 30px; */
+    /* z-index: -1px; */
+    margin-left: -30px;
+}
+.cf i{
+    position: relative;
+    left: 130px;
+}
+.ci {
+    border-top: 1px solid grey;
+}
+.aq{
+    height: 100px;
+}
+.aq button{
+      margin-top: 30px;
+}
+.ar{
+    height: 200px;
+    margin-top: -10px;
+}
+.ar h2 {
+    padding-top: 50px;
+}
+.as{
+    padding-top: 50px;
+}
+.as input{
+    length:30px;
+}
+.ax{
+    background-color: grey;
+    height: 200px;
+    padding-top: 60px;
+}
+.ax i{
+    border: 1px solid blue;
+    color: blue;
+    border-radius: 50%;
+}
+.cf button{
+    margin-left: 80px;
+    background-color: white;
+    color: blue;
+}
+.ca h2{
+   font-size: 40px;
+}
+@media screen and (min-width:469px) and (max-width:728px) {
+    .ai img{
+        margin-left: 105px;
+    }
+}
